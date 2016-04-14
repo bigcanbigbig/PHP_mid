@@ -11,6 +11,6 @@
 	echo "名稱：<input type='text' name='Name'><br/><br/>";
 	echo 'Email：<input type="text" name="Email"><br/><br/>';
 	echo '電話：<input type="text" name="Phone"><br/><br/>';
-	echo '<input type="submit" value="註冊">
+	echo '<input type="submit" value="修改">
 			<input type="reset" value="重填">';
 ?>
