@@ -7,7 +7,7 @@
 	$Email=$_POST["Email"];
 	$Phone=$_POST["Phone"];
 
-	include("../include.php");
+	include("include.php");
 
 	$update="UPDATE user SET Account='$Account',Pwd='Pwd',Name='$Name',Email='$Email',Phone='$Phone' WHERE no=".$no;
 

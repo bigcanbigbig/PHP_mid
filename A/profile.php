@@ -16,4 +16,6 @@
 	echo "電話：<input type='text' name='Phone' value=".$result[5]."><br/><br/>";
 	echo '<input type="submit" value="修改">
 			<input type="reset" value="重填">';
+	echo "</form>";
+	echo "<a href='del.php?no=".$result[0]."'>刪除</a>";
 ?>
